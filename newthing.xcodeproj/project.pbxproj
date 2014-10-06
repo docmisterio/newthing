@@ -14,6 +14,9 @@
 		BE32444519DF1103004A190C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE32444419DF1103004A190C /* Images.xcassets */; };
 		BE32444819DF1103004A190C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE32444619DF1103004A190C /* LaunchScreen.xib */; };
 		BE32445419DF1103004A190C /* newthingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32445319DF1103004A190C /* newthingTests.m */; };
+		BE32445F19DF14A2004A190C /* ExampleThing.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32445E19DF14A2004A190C /* ExampleThing.m */; };
+		BE32446219DF1993004A190C /* GroceryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32446119DF1993004A190C /* GroceryItem.m */; };
+		BE32446519DF1D64004A190C /* Cookies.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32446419DF1D64004A190C /* Cookies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		BE32444D19DF1103004A190C /* newthingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newthingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE32445219DF1103004A190C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE32445319DF1103004A190C /* newthingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newthingTests.m; sourceTree = "<group>"; };
+		BE32445D19DF14A2004A190C /* ExampleThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleThing.h; sourceTree = "<group>"; };
+		BE32445E19DF14A2004A190C /* ExampleThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleThing.m; sourceTree = "<group>"; };
+		BE32446019DF1993004A190C /* GroceryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryItem.h; sourceTree = "<group>"; };
+		BE32446119DF1993004A190C /* GroceryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItem.m; sourceTree = "<group>"; };
+		BE32446319DF1D64004A190C /* Cookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cookies.h; sourceTree = "<group>"; };
+		BE32446419DF1D64004A190C /* Cookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cookies.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				BE32443B19DF1103004A190C /* AppDelegate.h */,
+				BE32445D19DF14A2004A190C /* ExampleThing.h */,
+				BE32445E19DF14A2004A190C /* ExampleThing.m */,
+				BE32446019DF1993004A190C /* GroceryItem.h */,
+				BE32446319DF1D64004A190C /* Cookies.h */,
+				BE32446419DF1D64004A190C /* Cookies.m */,
+				BE32446119DF1993004A190C /* GroceryItem.m */,
 				BE32443C19DF1103004A190C /* AppDelegate.m */,
 				BE32443E19DF1103004A190C /* ViewController.h */,
 				BE32443F19DF1103004A190C /* ViewController.m */,
@@ -220,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE32444019DF1103004A190C /* ViewController.m in Sources */,
+				BE32446519DF1D64004A190C /* Cookies.m in Sources */,
+				BE32446219DF1993004A190C /* GroceryItem.m in Sources */,
 				BE32443D19DF1103004A190C /* AppDelegate.m in Sources */,
 				BE32443A19DF1103004A190C /* main.m in Sources */,
+				BE32445F19DF14A2004A190C /* ExampleThing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

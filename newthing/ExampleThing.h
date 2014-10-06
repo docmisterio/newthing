@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "GroceryItem.h"
 
 @interface ExampleThing : NSObject
+
+@property (nonatomic) UIColor *backgroundColor;
+
+- (void)goToTheStoreAndPickUp:(GroceryItem *)groceryItem;
 
 @end

@@ -10,4 +10,12 @@
 
 @implementation Cookies
 
+- (instancetype)init {
+    self = [super init];
+    self.name = @"chocolate";
+    self.price = 2.99;
+    self.calories = 100;
+    return self;
+}
+
 @end

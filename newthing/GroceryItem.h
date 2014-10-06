@@ -10,4 +10,9 @@
 
 @interface GroceryItem : NSObject
 
+@property (nonatomic) double price;
+@property (nonatomic) NSString *name;
+@property (nonatomic) int calories;
+
+
 @end
