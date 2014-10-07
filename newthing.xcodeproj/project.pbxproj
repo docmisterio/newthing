@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4AD624819E39E4C00486874 /* Noodles.m in Sources */ = {isa = PBXBuildFile; fileRef = A4AD624719E39E4C00486874 /* Noodles.m */; };
 		BE32443A19DF1103004A190C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32443919DF1103004A190C /* main.m */; };
 		BE32443D19DF1103004A190C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32443C19DF1103004A190C /* AppDelegate.m */; };
 		BE32444019DF1103004A190C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE32443F19DF1103004A190C /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4AD624619E39E4C00486874 /* Noodles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Noodles.h; sourceTree = "<group>"; };
+		A4AD624719E39E4C00486874 /* Noodles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Noodles.m; sourceTree = "<group>"; };
 		BE32443419DF1103004A190C /* newthing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newthing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE32443819DF1103004A190C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE32443919DF1103004A190C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				BE32446019DF1993004A190C /* GroceryItem.h */,
 				BE32446319DF1D64004A190C /* Cookies.h */,
 				BE32446419DF1D64004A190C /* Cookies.m */,
+				A4AD624619E39E4C00486874 /* Noodles.h */,
+				A4AD624719E39E4C00486874 /* Noodles.m */,
 				BE32446119DF1993004A190C /* GroceryItem.m */,
 				BE32443C19DF1103004A190C /* AppDelegate.m */,
 				BE32443E19DF1103004A190C /* ViewController.h */,
@@ -236,6 +241,7 @@
 			files = (
 				BE32444019DF1103004A190C /* ViewController.m in Sources */,
 				BE32446519DF1D64004A190C /* Cookies.m in Sources */,
+				A4AD624819E39E4C00486874 /* Noodles.m in Sources */,
 				BE32446219DF1993004A190C /* GroceryItem.m in Sources */,
 				BE32443D19DF1103004A190C /* AppDelegate.m in Sources */,
 				BE32443A19DF1103004A190C /* main.m in Sources */,
@@ -432,6 +438,7 @@
 				BE32445919DF1104004A190C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE32445A19DF1104004A190C /* Build configuration list for PBXNativeTarget "newthingTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +447,7 @@
 				BE32445C19DF1104004A190C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
