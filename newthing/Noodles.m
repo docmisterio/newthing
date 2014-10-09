@@ -10,7 +10,7 @@
 
 @implementation Noodles
 
--(instancetype) init {
+- (instancetype) init {
     self = [super init];
     self.name = @"pasta";
     self.price = 1.99;
